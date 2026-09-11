@@ -12,7 +12,7 @@ import { IMAGES } from "@/config/images";
 export const metadata: Metadata = buildMetadata({
   title: "Hospital Facilities",
   description:
-    "Confirmed facilities at Baba Baidyanath Medical Trust — 24/7 emergency & trauma, intensive care units, modern operation theatres, in-house pharmacy and ambulance support.",
+    "Confirmed facilities at Baba Baidyanath Medical Trust: 24/7 emergency & trauma, intensive care units, modern operation theatres, in-house pharmacy and ambulance support.",
   path: "/facilities",
 });
 
@@ -22,7 +22,7 @@ export default function FacilitiesPage() {
       <PageHeader
         eyebrow="Facilities"
         title="Modern infrastructure for complete care"
-        description="Everything needed to support emergency, critical, surgical and everyday care — under one roof."
+        description="Everything needed to support emergency, critical, surgical and everyday care, under one roof."
         breadcrumb={[{ label: "Home", href: "/" }, { label: "Facilities" }]}
       />
 

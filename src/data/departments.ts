@@ -13,7 +13,7 @@ import {
 import type { Department } from "./types";
 
 /**
- * Departments — strictly the specialties and sub-services supplied by the
+ * Departments - strictly the specialties and sub-services supplied by the
  * hospital. Descriptions/services are only included where confirmed; nothing
  * is invented.
  */

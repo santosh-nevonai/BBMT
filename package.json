@@ -2,7 +2,7 @@
   "name": "bbmt-website",
   "version": "1.0.0",
   "private": true,
-  "description": "Baba Baidyanath Medical Trust — premium multi-specialty hospital website",
+  "description": "Baba Baidyanath Medical Trust",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

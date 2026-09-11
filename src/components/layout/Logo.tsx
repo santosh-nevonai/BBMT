@@ -22,7 +22,7 @@ export function Logo({
   return (
     <Link
       href="/"
-      aria-label={`${HOSPITAL_NAME} — home`}
+      aria-label={`${HOSPITAL_NAME}, home`}
       className={cn(
         "inline-flex items-center transition-opacity hover:opacity-90",
         className

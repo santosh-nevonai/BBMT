@@ -11,11 +11,11 @@ type EmergencyCTAProps = {
 
 /**
  * Reusable emergency banner. Strong visual hierarchy without an aggressive,
- * red-heavy treatment — a confident navy field with a single emergency accent.
+ * red-heavy treatment - a confident navy field with a single emergency accent.
  */
 export function EmergencyCTA({
   title = "24/7 Emergency & Trauma Support",
-  description = "When every second matters, our emergency and critical care teams are ready — around the clock.",
+  description = "When every second matters, our emergency and critical care teams are ready around the clock.",
 }: EmergencyCTAProps) {
   return (
     <section className="section-tight">

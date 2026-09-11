@@ -23,7 +23,7 @@ export default function AboutPage() {
       <PageHeader
         eyebrow="About Us"
         title="A premier multi-specialty healthcare institution"
-        description="Delivering accessible, high-quality medical care and clinical education — with compassion at its core."
+        description="Delivering accessible, high-quality medical care and clinical education, with compassion at its core."
         breadcrumb={[{ label: "Home", href: "/" }, { label: "About" }]}
       />
 

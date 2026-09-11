@@ -18,7 +18,7 @@ export function Hero() {
       </div>
 
       <div className="mx-auto grid max-w-7xl items-center gap-12 px-5 pb-16 pt-16 sm:px-6 lg:grid-cols-[1.05fr_1fr] lg:gap-16 lg:pb-24 lg:pt-24 lg:px-8">
-        {/* Left — message */}
+        {/* Left - message */}
         <div className="flex flex-col items-start gap-6">
           <Reveal>
             <span className="inline-flex items-center gap-2 rounded-full border border-border bg-surface px-4 py-1.5 text-xs font-semibold text-primary shadow-sm">
@@ -38,7 +38,7 @@ export function Hero() {
           <Reveal delay={0.1}>
             <p className="prose-lead max-w-xl">
               Baba Baidyanath Medical Trust provides accessible, high-quality
-              multi-specialty healthcare — supported by modern infrastructure,
+              multi-specialty healthcare, supported by modern infrastructure,
               advanced diagnostics and an experienced team of medical
               professionals.
             </p>
@@ -56,7 +56,7 @@ export function Hero() {
           </Reveal>
         </div>
 
-        {/* Right — image composition */}
+        {/* Right - image composition */}
         <Reveal delay={0.1} className="relative">
           <div className="relative aspect-[4/5] w-full overflow-hidden rounded-[1.75rem] border border-border bg-surface shadow-lift sm:aspect-[5/5]">
             <Image

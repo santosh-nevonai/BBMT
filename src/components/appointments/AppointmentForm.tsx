@@ -239,7 +239,7 @@ export function AppointmentForm() {
       <Textarea
         id="message"
         label="Message"
-        hint="Optional — briefly describe your concern or any special request."
+        hint="Optional. Briefly describe your concern or any special request."
         rows={4}
         placeholder="Tell us how we can help…"
         value={form.message}

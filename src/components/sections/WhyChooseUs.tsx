@@ -10,7 +10,7 @@ export function WhyChooseUs() {
         <SectionHeading
           eyebrow="Why Baba Baidyanath Medical Trust"
           title="Care you can trust, built around people"
-          description="Every element of the hospital is designed around one goal — accessible, compassionate and clinically sound care."
+          description="Every element of the hospital is designed around one goal: accessible, compassionate and clinically sound care."
           className="mb-12 max-w-2xl"
         />
         <ul className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">

@@ -10,7 +10,7 @@ import { departments } from "@/data/departments";
 export const metadata: Metadata = buildMetadata({
   title: "Departments & Specialties",
   description:
-    "Explore the multi-specialty departments at Baba Baidyanath Medical Trust — from general medicine and critical care to surgery, cardiology, radiology and more.",
+    "Explore the multi-specialty departments at Baba Baidyanath Medical Trust, from general medicine and critical care to surgery, cardiology, radiology and more.",
   path: "/departments",
 });
 

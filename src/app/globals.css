@@ -4,7 +4,7 @@
 
 /*
   ─────────────────────────────────────────────────────────────
-  BABA BAIDYANATH MEDICAL TRUST — THEME TOKENS
+  BABA BAIDYANATH MEDICAL TRUST - THEME TOKENS
   Every color lives here as an HSL triplet (so Tailwind's
   `<alpha-value>` opacity modifiers work). Change a value once
   and it cascades across the entire site. Never hard-code hexes
@@ -12,7 +12,7 @@
   ─────────────────────────────────────────────────────────────
 */
 :root {
-  /* Brand — sampled from the BBMT logo (navy wordmark + gold tree). */
+  /* Brand - sampled from the BBMT logo (navy wordmark + gold tree). */
   --primary: 228 52% 33%; /* deep royal navy (logo letters) */
   --primary-dark: 230 56% 23%;
   --primary-foreground: 0 0% 100%;

@@ -11,7 +11,7 @@ export function HospitalOverview() {
     <section className="section bg-background">
       <Container size="wide">
         <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
-          {/* Left — editorial copy */}
+          {/* Left - editorial copy */}
           <div className="flex flex-col gap-6">
             <Reveal>
               <span className="eyebrow">
@@ -37,7 +37,7 @@ export function HospitalOverview() {
             </Reveal>
           </div>
 
-          {/* Right — image with floating stat panel */}
+          {/* Right - image with floating stat panel */}
           <Reveal delay={0.1} className="relative">
             <div className="relative aspect-[4/3.4] w-full overflow-hidden rounded-[1.75rem] border border-border shadow-lift">
               <Image

@@ -23,7 +23,7 @@ export type Doctor = {
   slug: string;
   name: string;
   /**
-   * Specialization — intentionally OPTIONAL. Left undefined until the
+   * Specialization - intentionally OPTIONAL. Left undefined until the
    * hospital confirms it. We never fabricate a specialty.
    */
   specialization?: string;

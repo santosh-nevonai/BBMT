@@ -9,7 +9,7 @@ import {
 import type { Stat } from "./types";
 
 /**
- * Overview copy — the hospital's own source-of-truth text. Do not alter the
+ * Overview copy - the hospital's own source-of-truth text. Do not alter the
  * factual meaning.
  */
 export const OVERVIEW_PARAGRAPHS = [
@@ -18,7 +18,7 @@ export const OVERVIEW_PARAGRAPHS = [
 ];
 
 /**
- * Qualitative highlights only — NO invented numbers (no bed counts, years,
+ * Qualitative highlights only - NO invented numbers (no bed counts, years,
  * patient totals, etc.).
  */
 export const OVERVIEW_STATS: Stat[] = [
@@ -28,7 +28,7 @@ export const OVERVIEW_STATS: Stat[] = [
   { label: "Operation Theatres", value: "Modern" },
 ];
 
-/** "Why choose us" pillars — factual themes, no fabricated achievements. */
+/** "Why choose us" pillars - factual themes, no fabricated achievements. */
 export const WHY_CHOOSE_US = [
   {
     title: "Accessible Healthcare",

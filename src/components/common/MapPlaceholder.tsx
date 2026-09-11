@@ -28,7 +28,7 @@ export function MapPlaceholder({ className }: { className?: string }) {
         </span>
         <p className="text-sm font-medium text-foreground">Location map</p>
         <p className="max-w-xs text-xs text-muted">
-          {HOSPITAL_ADDRESS_TEXT} — precise location to be confirmed.
+          {HOSPITAL_ADDRESS_TEXT}, precise location to be confirmed.
         </p>
       </div>
     </div>

@@ -8,7 +8,7 @@ import {
 import type { Facility } from "./types";
 
 /**
- * Confirmed hospital facilities — exactly as supplied. We do NOT invent counts
+ * Confirmed hospital facilities - exactly as supplied. We do NOT invent counts
  * (beds, theatres, ambulances), equipment brands, blood bank, cafeteria, etc.
  */
 export const facilities: Facility[] = [

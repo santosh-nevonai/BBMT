@@ -126,8 +126,8 @@ export default async function DoctorPage({
                     aria-hidden
                   />
                   <p className="text-sm leading-relaxed text-muted">
-                    Detailed profile information — including qualifications,
-                    specialisation and areas of expertise — will be published
+                    Detailed profile information, including qualifications,
+                    specialisation and areas of expertise, will be published
                     once confirmed by the hospital. To request a consultation
                     with {doctor.name}, please book an appointment or contact the
                     hospital.

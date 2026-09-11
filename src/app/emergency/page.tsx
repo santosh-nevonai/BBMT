@@ -19,7 +19,7 @@ import { EMERGENCY_PHONE, telHref } from "@/config/site";
 export const metadata: Metadata = buildMetadata({
   title: "24/7 Emergency & Trauma Care",
   description:
-    "Round-the-clock emergency and trauma care at Baba Baidyanath Medical Trust — resuscitation, critical care, ICU/HDU and ambulance & patient transport support.",
+    "Round-the-clock emergency and trauma care at Baba Baidyanath Medical Trust: resuscitation, critical care, ICU/HDU and ambulance & patient transport support.",
   path: "/emergency",
 });
 
@@ -62,7 +62,7 @@ export default function EmergencyPage() {
       <PageHeader
         eyebrow="Emergency & Trauma"
         title="24/7 Emergency & Trauma Care"
-        description="Our emergency and critical care teams are ready around the clock — with resuscitation, advanced intensive care and ambulance support when every second matters."
+        description="Our emergency and critical care teams are ready around the clock, with resuscitation, advanced intensive care and ambulance support when every second matters."
         breadcrumb={[{ label: "Home", href: "/" }, { label: "Emergency" }]}
         actions={
           <Button
@@ -98,7 +98,7 @@ export default function EmergencyPage() {
                     Call our emergency helpline
                   </h2>
                   <p className="mt-2 max-w-lg text-sm text-white/70">
-                    Emergency number to be confirmed — update{" "}
+                    Emergency number to be confirmed. Update{" "}
                     <code className="rounded bg-white/10 px-1.5 py-0.5 text-white/90">
                       EMERGENCY_PHONE
                     </code>{" "}

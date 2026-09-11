@@ -6,7 +6,7 @@ import type { Doctor } from "./types";
  * CONTENT RULE: Only the names below were supplied by the hospital. We do NOT
  * invent degrees, specializations, experience, positions, awards or photos.
  * `specialization`, `departmentSlugs` and `image` are intentionally left
- * undefined until the hospital confirms them — the UI degrades gracefully with
+ * undefined until the hospital confirms them - the UI degrades gracefully with
  * neutral placeholders.
  */
 export const doctors: Doctor[] = [

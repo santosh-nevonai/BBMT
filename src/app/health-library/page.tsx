@@ -11,7 +11,7 @@ import { departments } from "@/data/departments";
 export const metadata: Metadata = buildMetadata({
   title: "Health Library",
   description:
-    "Reliable health information from Baba Baidyanath Medical Trust — organised by specialty. Content is being developed.",
+    "Reliable health information from Baba Baidyanath Medical Trust, organised by specialty. Content is being developed.",
   path: "/health-library",
 });
 
@@ -21,7 +21,7 @@ export default function HealthLibraryPage() {
       <PageHeader
         eyebrow="Health Library"
         title="Trusted health information"
-        description="A growing library of reliable, evidence-based health information — organised by our medical specialties."
+        description="A growing library of reliable, evidence-based health information, organised by our medical specialties."
         breadcrumb={[
           { label: "Home", href: "/" },
           { label: "Health Library" },

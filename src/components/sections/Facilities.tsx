@@ -11,12 +11,12 @@ export function Facilities() {
     <section className="section bg-surface-muted">
       <Container size="wide">
         <div className="grid gap-12 lg:grid-cols-[0.95fr_1.05fr] lg:gap-16">
-          {/* Left — heading + image */}
+          {/* Left - heading + image */}
           <div className="flex flex-col gap-8">
             <SectionHeading
               eyebrow="Facilities"
               title="Modern infrastructure for complete care"
-              description="Confirmed hospital facilities supporting emergency, critical, surgical and everyday care — all under one roof."
+              description="Confirmed hospital facilities supporting emergency, critical, surgical and everyday care, all under one roof."
             />
             <Reveal delay={0.1}>
               <div className="relative aspect-[16/10] w-full overflow-hidden rounded-2xl border border-border shadow-card">
@@ -36,7 +36,7 @@ export function Facilities() {
             </Reveal>
           </div>
 
-          {/* Right — facility list */}
+          {/* Right - facility list */}
           <ul className="flex flex-col divide-y divide-border rounded-2xl border border-border bg-surface">
             {facilities.map((facility, i) => {
               const Icon = facility.icon;

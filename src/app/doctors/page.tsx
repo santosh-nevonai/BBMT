@@ -10,7 +10,7 @@ import { departments } from "@/data/departments";
 export const metadata: Metadata = buildMetadata({
   title: "Our Doctors",
   description:
-    "Meet the medical team at Baba Baidyanath Medical Trust — an experienced group of consultants and specialists committed to compassionate, evidence-based care.",
+    "Meet the medical team at Baba Baidyanath Medical Trust, an experienced group of consultants and specialists committed to compassionate, evidence-based care.",
   path: "/doctors",
 });
 
@@ -20,7 +20,7 @@ export default function DoctorsPage() {
       <PageHeader
         eyebrow="Our Doctors"
         title="Meet our medical team"
-        description="An experienced team of consultants, specialists and dedicated staff — here to care for you and your family."
+        description="An experienced team of consultants, specialists and dedicated staff, here to care for you and your family."
         breadcrumb={[{ label: "Home", href: "/" }, { label: "Doctors" }]}
       />
 

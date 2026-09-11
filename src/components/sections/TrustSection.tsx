@@ -38,7 +38,7 @@ export function TrustSection() {
               <p className="max-w-prose text-lg leading-relaxed text-white/75">
                 We combine compassionate, patient-centered care with
                 evidence-based treatment, an experienced medical team and modern
-                infrastructure — keeping quality healthcare accessible to the
+                infrastructure, keeping quality healthcare accessible to the
                 community we serve.
               </p>
             </Reveal>

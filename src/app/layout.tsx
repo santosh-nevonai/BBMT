@@ -28,7 +28,7 @@ const jakarta = Plus_Jakarta_Sans({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: `${HOSPITAL_NAME} — ${HOSPITAL_TAGLINE}`,
+    default: `${HOSPITAL_NAME} - ${HOSPITAL_TAGLINE}`,
     template: `%s | ${HOSPITAL_NAME}`,
   },
   description: HOSPITAL_DESCRIPTION,
@@ -44,13 +44,13 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     siteName: HOSPITAL_NAME,
-    title: `${HOSPITAL_NAME} — ${HOSPITAL_TAGLINE}`,
+    title: `${HOSPITAL_NAME} - ${HOSPITAL_TAGLINE}`,
     description: HOSPITAL_DESCRIPTION,
     url: SITE_URL,
   },
   twitter: {
     card: "summary_large_image",
-    title: `${HOSPITAL_NAME} — ${HOSPITAL_TAGLINE}`,
+    title: `${HOSPITAL_NAME} - ${HOSPITAL_TAGLINE}`,
     description: HOSPITAL_DESCRIPTION,
   },
   robots: { index: true, follow: true },

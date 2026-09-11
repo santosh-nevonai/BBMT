@@ -31,7 +31,7 @@ const reassurances = [
   {
     icon: CalendarPlus,
     title: "Simple process",
-    text: "Request in minutes — we'll confirm the details.",
+    text: "Request in minutes. We'll confirm the details.",
   },
 ];
 

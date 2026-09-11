@@ -9,7 +9,7 @@ export function DoctorCard({ doctor }: { doctor: Doctor }) {
 
   return (
     <article className="group flex h-full flex-col overflow-hidden rounded-2xl border border-border bg-surface shadow-soft transition-all duration-300 hover:-translate-y-1 hover:border-primary/25 hover:shadow-card">
-      {/* Portrait area — real photo when available, elegant neutral placeholder otherwise */}
+      {/* Portrait area - real photo when available, elegant neutral placeholder otherwise */}
       <div className="relative aspect-[4/3.6] w-full overflow-hidden bg-gradient-to-br from-primary/10 to-secondary/15">
         {doctor.image ? (
           <Image

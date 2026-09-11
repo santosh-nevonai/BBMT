@@ -3,7 +3,7 @@
  *
  * These now reference real photography of Baba Baidyanath Medical Trust, stored
  * in `/public/images/**`. To swap an image later, drop a new file in and change
- * the path here — no component needs to change.
+ * the path here - no component needs to change.
  *
  * Note: the reception photo carries "AYUVA Healthcare" signage (the operating
  * brand of the facility); it is used only in reception/appointment contexts.

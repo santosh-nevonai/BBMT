@@ -14,7 +14,7 @@ import { facilities } from "@/data/facilities";
 export const metadata: Metadata = buildMetadata({
   title: "Services",
   description:
-    "Holistic health services across outpatient, inpatient and critical care domains — supported by multi-specialty departments and modern hospital facilities.",
+    "Holistic health services across outpatient, inpatient and critical care domains, supported by multi-specialty departments and modern hospital facilities.",
   path: "/services",
 });
 

@@ -11,7 +11,7 @@ import { buildMetadata } from "@/lib/seo";
 export const metadata: Metadata = buildMetadata({
   title: "Patient Information",
   description:
-    "Helpful information for patients and visitors at Baba Baidyanath Medical Trust — appointments, visiting and what to expect.",
+    "Helpful information for patients and visitors at Baba Baidyanath Medical Trust: appointments, visiting and what to expect.",
   path: "/patient-information",
 });
 
