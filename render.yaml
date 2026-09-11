@@ -1,0 +1,18 @@
+# Render Blueprint — deploys this Next.js static export as a Static Site.
+# If you created the service manually in the dashboard instead, just set:
+#   Build Command:      npm install && npm run build
+#   Publish Directory:  out
+services:
+  - type: web
+    name: bbmt
+    runtime: static
+    buildCommand: npm install && npm run build
+    staticPublishPath: out
+    envVars:
+      - key: NODE_VERSION
+        value: 22.14.0
+    routes:
+      # Serve the exported 404 page for unknown paths.
+      - type: rewrite
+        source: /404
+        destination: /404.html

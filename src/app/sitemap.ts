@@ -3,6 +3,9 @@ import { SITE_URL } from "@/config/site";
 import { departmentSlugs } from "@/data/departments";
 import { doctorSlugs } from "@/data/doctors";
 
+// Required for `output: "export"` — generate this as a static file at build time.
+export const dynamic = "force-static";
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticPaths = [
     "",
