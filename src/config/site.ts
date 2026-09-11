@@ -7,7 +7,7 @@
  * here should be presented to patients as confirmed until it is filled in.
  */
 
-export const SITE_URL = "https://www.bababaidyanathmedicaltrust.org"; // PLACEHOLDER
+export const SITE_URL = "https://bbmt.onrender.com"; // Update if a custom domain is added
 
 export const HOSPITAL_NAME = "Baba Baidyanath Medical Trust";
 export const HOSPITAL_SHORT_NAME = "BBMT";
