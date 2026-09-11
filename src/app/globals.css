@@ -1,0 +1,137 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+  ─────────────────────────────────────────────────────────────
+  BABA BAIDYANATH MEDICAL TRUST — THEME TOKENS
+  Every color lives here as an HSL triplet (so Tailwind's
+  `<alpha-value>` opacity modifiers work). Change a value once
+  and it cascades across the entire site. Never hard-code hexes
+  in components.
+  ─────────────────────────────────────────────────────────────
+*/
+:root {
+  /* Brand */
+  --primary: 209 74% 27%; /* deep medical navy-blue */
+  --primary-dark: 212 78% 18%;
+  --primary-foreground: 0 0% 100%;
+
+  --secondary: 179 60% 36%; /* teal healthcare accent */
+  --secondary-dark: 181 66% 26%;
+  --accent: 170 64% 42%; /* emerald-teal */
+
+  --emergency: 8 74% 52%; /* warm, controlled emergency tone */
+  --emergency-dark: 8 68% 42%;
+
+  /* Surfaces & neutrals */
+  --background: 208 38% 99%;
+  --surface: 0 0% 100%;
+  --surface-muted: 208 34% 97%;
+  --foreground: 214 42% 15%; /* dark navy text */
+  --muted: 214 15% 45%; /* soft blue-gray */
+  --border: 214 28% 90%;
+
+  --radius: 14px;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  /* Consistent, elegant focus treatment for keyboard users */
+  :focus-visible {
+    @apply outline-none ring-2 ring-secondary ring-offset-2 ring-offset-background;
+    border-radius: 4px;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-display font-semibold tracking-tight text-foreground;
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  ::selection {
+    background: hsl(var(--secondary) / 0.22);
+  }
+
+  /* Skip repeated heavy anchor smooth-scroll for reduced-motion users */
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.001ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.001ms !important;
+    }
+  }
+}
+
+@layer components {
+  /* Section vertical rhythm */
+  .section {
+    @apply py-20 sm:py-24 lg:py-28;
+  }
+  .section-tight {
+    @apply py-14 sm:py-16 lg:py-20;
+  }
+
+  /* Small uppercase eyebrow label used above section headings */
+  .eyebrow {
+    @apply inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.14em] text-secondary-dark;
+  }
+
+  /* Editorial body copy */
+  .prose-lead {
+    @apply text-lg leading-relaxed text-muted sm:text-xl;
+  }
+
+  /* Animated underline for text links */
+  .link-underline {
+    @apply relative inline-flex w-fit;
+  }
+  .link-underline::after {
+    content: "";
+    @apply absolute -bottom-0.5 left-0 h-px w-full origin-right scale-x-0 bg-current transition-transform duration-300 ease-out;
+  }
+  .link-underline:hover::after,
+  .link-underline:focus-visible::after {
+    @apply origin-left scale-x-100;
+  }
+}
+
+/* Refined scrollbar (desktop only) */
+@media (pointer: fine) {
+  ::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: hsl(var(--primary) / 0.28);
+    border: 3px solid hsl(var(--background));
+    border-radius: 999px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: hsl(var(--primary) / 0.45);
+  }
+}
