@@ -12,14 +12,14 @@
   ─────────────────────────────────────────────────────────────
 */
 :root {
-  /* Brand */
-  --primary: 209 74% 27%; /* deep medical navy-blue */
-  --primary-dark: 212 78% 18%;
+  /* Brand — sampled from the BBMT logo (navy wordmark + gold tree). */
+  --primary: 228 52% 33%; /* deep royal navy (logo letters) */
+  --primary-dark: 230 56% 23%;
   --primary-foreground: 0 0% 100%;
 
-  --secondary: 179 60% 36%; /* teal healthcare accent */
-  --secondary-dark: 181 66% 26%;
-  --accent: 170 64% 42%; /* emerald-teal */
+  --secondary: 41 52% 48%; /* warm brand gold (logo tree) */
+  --secondary-dark: 38 60% 34%; /* darker gold for legible text on light */
+  --accent: 43 62% 55%; /* light warm gold */
 
   --emergency: 8 74% 52%; /* warm, controlled emergency tone */
   --emergency-dark: 8 68% 42%;
@@ -52,7 +52,7 @@
 
   /* Consistent, elegant focus treatment for keyboard users */
   :focus-visible {
-    @apply outline-none ring-2 ring-secondary ring-offset-2 ring-offset-background;
+    @apply outline-none ring-2 ring-primary ring-offset-2 ring-offset-background;
     border-radius: 4px;
   }
 
